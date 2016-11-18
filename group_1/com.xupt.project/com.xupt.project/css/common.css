@@ -1,0 +1,75 @@
+@charset "utf-8";
+* {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size: 14px;
+	font-family: Arial,Verdana,Tahoma,"微软雅黑","黑体";
+	line-height: 120%;
+	margin: 0;
+	overflow-x: hidden;
+	background-color: rgb(255, 255, 255);
+}
+p, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, form, table {
+	margin: 0;
+	padding: 0;
+}
+a, img {
+	border: none;
+	text-decoration: none;
+}
+img {
+	vertical-align: middle;
+	border: 0;
+}
+li{
+	list-style: none;
+}
+.white	{
+	color: white;
+}
+.black{
+	color: black;
+}
+/*********************Gobal Classes**********************/
+/*清除浮动*/
+.clearfix:before,.clearfix:after {
+	display:table;content:"";
+}
+.clearfix:after {
+	clear:both;
+}
+.clearfix {
+	*zoom:1
+}
+/*文本对齐方式*/
+.t-l { 
+	text-align: left;
+}
+.t-c { 
+	text-align: center;
+}
+.t-r { 
+	text-align: right;
+}
+/*块状元素水平居中*/
+.m-a {
+	margin: 0px auto;
+}
+/*浮动方向*/
+.f-l {
+	float: left;
+}
+.f-r {
+	float: right;
+}
+/*字体大小*/
+.f-b {
+	font-weight: bold;
+}

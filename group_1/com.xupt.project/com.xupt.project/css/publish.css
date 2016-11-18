@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+body {
+	background-color: rgb(233, 244, 255);
+}
+.main {
+	width: 22.222rem;
+	overflow-x: hidden;
+	position: relative;
+	margin: 0 auto;
+	padding: 4rem 0 4rem 0;
+}
+.header {
+	position: fixed;
+	top: 0;
+	width: 22.222rem;
+	padding: 0.5rem 0.72rem;
+	display: block;
+	z-index: 30;
+	background-color: rgb(248, 248, 85);
+}
+.header li {
+	display: block;
+}
+.header li:nth-child(1) {
+	float: left;
+	width: 15%;
+}
+.header li:nth-child(1) a {
+	padding: 0 0.5rem;
+}
+.header li:nth-child(1) img {
+	width: 1.24rem;
+	height: 2.69rem;
+}
+.header li:nth-child(2) {
+	float: left;
+	width: 70%;
+	font-size: 1.4rem;
+	color: rgb(40, 40, 40);
+	text-align: center;
+	line-height: 2.9rem;
+}
+.header li:nth-child(3) {
+ 	float: right;
+	width: 15%;
+}
+.header li:nth-child(3) a {
+	padding: 1rem 0.7rem;
+}
+.header li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.header li:nth-child(3) img {
+	width: 2.22rem;
+	height: 0.60rem;
+}
+.top {
+	width: 100%;
+	padding: 0.63rem 5rem 0.5rem 5rem;
+	background-color: rgb(219, 239, 240);
+}
+.title {
+	width: 100%;
+}
+.title li {
+	width: 50%;
+	float: left;
+	text-align: left;
+	font-size: 1.3rem;
+	color: rgb(81, 86, 86);
+	line-height: 2.43rem;
+}
+.title li:nth-child(1) {
+	padding-left: 2.4rem;
+}
+.title li img {
+	width: 2.43rem;
+	height: 2.43rem;
+}
+.publish-img {
+	width: 100%;
+	text-align: center;
+	padding: 0.7rem 3.55rem;
+}
+.publish-img img {
+	width: 5.12rem;
+	height: 4.6rem;
+}
+.publish-img p {
+	padding-top: 0.5rem;
+	font-size: 1rem;
+}
+.center {
+	width: 100%;
+	padding: 0.5rem 0.5rem 3.76rem 0.5rem;
+}
+.content {
+	background-color: rgb(255, 255, 255);
+}
+.content table {
+	width: 100%;
+	text-align: center;
+}
+.content table td:nth-child(2n+1) {
+	width: 30%;
+}
+.content table td:nth-child(2n) {
+	width: 70%;
+	text-align: left;
+	padding-left: 0.5rem;
+}
+.content table td {
+	font-size: 1rem;
+	display: inline-block;
+	height: 3rem;
+	line-height: 3rem;
+	color: rgb(109, 113, 116);
+	border-left: 0.05rem solid #ccc;
+	border-bottom: 0.05rem solid #ccc;
+}
+.content table td:nth-child(1) {
+	border-left: none;
+}
+.content table td input {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: rgb(109, 113, 116);
+	font-size: 1rem;
+}
+.content table td select {
+	width: 48%;
+	height: 50%;
+	font-size: 0.5rem;
+	color: rgb(109, 113, 116);
+	background-color: rgb(255, 255, 255);
+	border: 0.1rem solid #ccc;
+}
+.btm {
+	width: 100%;
+	padding: 0 2.2rem;
+}
+.btm input {
+	display: block;
+	width: 17.9rem;
+	height: 3.06rem;
+	font-size: 1rem;
+	color: rgb(109, 113, 116);
+	border: none;
+	border-radius: 0.5rem;
+	background-color: rgb(65, 228, 119);
+}

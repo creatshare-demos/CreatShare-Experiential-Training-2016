@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>留言板</title>
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<img src="./css/logo.png">
+	<form action="add.php"  method="post" name = "myform" >
+	    
+	    <div class="username">
+	    	<input class="name" type="text" name="name" placeholder="输入昵称" />
+    	</div>
+    	<div class="text">
+		    <textarea class="message" name="message" placeholder="在这里留言"></textarea>
+    	</div>
+    	<div class="anliu">
+    		<input class="btn" type="submit" name="submit" value="提交评论" />
+    	</div>
+	</form>
+	<ul>
+		<?php $i=1;$j =0 ?>
+		<?php  
+		foreach($data as $k => $v) { ?>
+		<?php if ($i == 1) {
+			$j = '1楼';
+		}elseif ($i ==2) {
+			$j = '2楼';
+		}elseif ($i ==3) {
+			$j = '3楼';
+		}else{
+			$j = "$i" . '楼';
+		} ?>
+		<li>
+			<div class="fore1">
+				<?php echo $v['name'] ?>:
+				<?php echo $j ?>
+			</div>
+			<p <?php echo $v['message'] ?></p>
+			<div class="fore2">
+				<span class="time"><?php echo $v['time'] ?></span>
+				<a class="fix" href="javascript:if(confirm('确认删除？')) location.href='./dele.php?id=<?php echo $k; ?>';">删除</a>
+				<a class="fix" href="./chage.php?id=<?php echo $k ?>">修改</a>
+			</div>
+		</li>
+		<?php $i++ ?>
+		<?php } ?>
+	</ul>
+</body>
+</html>

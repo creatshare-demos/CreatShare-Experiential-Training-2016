@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link href="./resource/css/base.css" rel="stylesheet"/>
+	<link href="./resource/css/dist/css/bootstrap.css" rel="stylesheet"/>
+	<link href="./resource/css/menuPage.css" rel="stylesheet"/>
+	<script type="text/javascript" src="./resource/js/jquery.min.js"></script>
+	<script type="text/javascript" src="./resource/js/tool.js"></script>
+	<script type="text/javascript" src="./resource/js/menuPage.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="divTurnSellerPage">
+			<span class="glyphicon glyphicon-hand-left"></span>
+			<div class="turnTopTip">返回上一页</div>
+		</div>
+		<label class="topicFont text-shadow3"></label>
+	</header>
+	
+	<section>
+		<div class="foodInfo">
+			<div class="totalCost">你总共需要支付：<label id="totalCost">0</label> 元</div>
+			<div class="ifTakeOut">是否需要外带？
+				<input type="radio" id="yes" name="rad" checked="checked"/><label for="yes">&nbsp;是</label>
+				<input type="radio" id="no" name="rad"/><label for="no">&nbsp;否</label>
+			</div>
+			<span>请输入取餐时间：</span><input id="inputTime" type="text" value="中午12点10分">
+			<span>请输入忌口要求：</span><input id="inputTaste" type="text" value="不要辣椒  不要香菜">
+			<button id="btnSure" class="btn btn-danger">确定</button>
+		</div>
+		<div class="divInfo">
+				<h3>温馨提示</h3>
+				<h4>你的取餐编号是：XXX</h4>
+				<button type="button" id="btnToSure" class="btn btn-danger">确定</button>
+		</div>
+	</section>
+</body>
+</html>

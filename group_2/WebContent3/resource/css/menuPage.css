@@ -1,0 +1,30 @@
+body{position:relative;height:90%;background-image:url(../pic/121.jpg);background-size:100% 100%;background-repeat:y-repeat;}
+
+header label{text-align:center;margin:0px auto;}
+.divTurnSellerPage{position:absolute;float:left;color:white;}
+.divTurnSellerPage span{font-size:25pt;float:left;line-height:180%;padding-left:10px;}
+.divTurnSellerPage span:hover{color:gray;cursor:pointer;}
+.divTurnSellerPage span:active{color:lightblue;}
+.turnTopTip{position:absolute;float:left;background:lightgray;color:gray;height:20px;width:80px;display:none;}
+
+.col-md-4{margin-top:20px;margin-bottom:20px;height:22%;}
+.col-md-4 img{width:186px;height:110px;float:left;padding:5px;background:white;border:1px solid black;border-radius:4px;margin-left:5%;}
+.col-md-4 img:hover{box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .6);background:#BCA0F7;}
+.col-md-4 img:active{background:#563D7C;}
+.col-md-4 div{position:relative;width:50%;float:right;font-weight:bold;}
+.col-md-4 label:not(.divLabel){position:relative;width:40%;display:block;left:8%;}
+.checkInput{position:relative;border:1px solid red;display:inline;top:22px;}
+.divPrice{position:relative;bottom:30%;color:red;}
+
+.foodInfo{position:relative;padding-top:1%;padding-left:5%;clear:both;height:10%;width:100%;font-size:12pt;border-top:1px solid white;background:#4693EC;}
+.totalCost{position:relative;float:left;margin-right:2%;margin-bottom:0px;height:30px;line-height:30px;}
+#totalCost{color:red;font-size:14pt;}
+.ifTakeOut{height:30px;line-height:30px;float:left;margin-right:2%;}
+.foodInfo input[type='text']{margin-right:2%;color:gray;border:1px solid gray;}
+.foodInfo input[type='text']:active{border:2px solid lightblue;}
+section button{position:relative;}
+
+.divInfo{position:absolute;top:0px;width:20%;background:#BCA0F7;text-align:center;color:red;border-radius:10px;box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .6);opacity:0;z-index:-1;}
+.divInfo h3{position:relative;left:25%;height:30%;width:50%;line-height:200%;color:white;background:#563D7C;border-radius:10px;}
+.divInfo h4{position:relative;height:20%;line-height:300%;}
+.divInfo button{position:relative;left:2%;margin:0px auto;margin-bottom:10px;}

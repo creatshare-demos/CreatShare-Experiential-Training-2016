@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>登陆注册页面</title>
+	<link rel="stylesheet" href="./resource/css/base.css">
+	<link rel="stylesheet" href="./resource/css/login.css">
+	<link rel="stylesheet" href="./resource/css/dist/css/bootstrap.min.css">
+	<script type="text/javascript" src="./resource/js/jquery.min.js"></script>
+	<script type="text/javascript" src="./resource/js/tool.js"></script>
+	<script type="text/javascript" src="./resource/js/login.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="divTurnSellerPage">
+			<span class="glyphicon glyphicon-hand-left"></span>
+			<div class="turnTopTip">返回上一页</div>
+		</div>
+		<label class="topicFont text-shadow3">爱 餐 之 家</label>
+	</header>
+	
+	<section>
+		<div class="divTable">
+			<div class="tabNav form-group">
+				<ul>
+					<li id="titleLogin" class="titleLogin titleFont">登陆</li>
+					<li id="titleRegist" class="titleRegist titleFont">注册</li>
+				</ul>
+			</div>
+			<div class="tabContent1 form-group">
+				<div class="normalFont">账号&nbsp;&nbsp;<input id="userId" type="text" class="form-control" name="userId" value="请输入8位有效用户号"/><span class="spanRed">*</span></div>
+				<div class="normalFont">密码 &nbsp;&nbsp;<input id="userPass" type="text" class="form-control" name="password" value="请输入最少6位密码"/><span class="spanRed">*</span></div>
+				<div id="divBtn">
+					<button type="button" id="btnLogin" class="btn btn-info">登陆</button>
+				</div>
+			</div>
+			<div class="tabContent2 form-group">
+				<div id="divRadio" class="normalFont">
+					<input type="radio" id="studentRadio" name="rad"/><label for="studentRadio">&nbsp;&nbsp;学生</label>
+					<input type="radio" id="sellerRadio" name="rad" class="sellerRadio"/><label for="sellerRadio" class="sellerRadio">&nbsp;&nbsp;商户</label>
+				</div>
+				<div class="normalFont"><span>学生学号</span>&nbsp;&nbsp;<input id="user_id" type="text" class="form-control" name="user_id" value="请输入你的8位学号"/><span class="spanRed">*</span></div>
+				<div class="normalFont"><span>学生姓名</span>&nbsp;&nbsp;<input id="user_name" type="text" class="form-control" name="user_name" value="请输入你的姓名"/><span class="spanRed">*</span></div>
+				<div class="normalFont"><span>电话</span>&nbsp;&nbsp;<input id="user_phone" type="text" class="form-control" name="user_phone" value="请输入你的电话"/><span class="spanRed">*</span></div>
+				<div class="normalFont"><span>密码</span> &nbsp;&nbsp;<input id="user_pass" type="text" class="form-control" name="user_pass" value="请输入最少6位密码"/><span class="spanRed">*</span></div>
+				<button type="button" id="btnRegist" class="btn btn-info">注册</button>
+			</div>
+		</div>
+		<div class="divInfo">
+			<h3>温馨提示</h3>
+			<h4>登陆失败！用户不存在！</h4>
+			<button type="button" id="btnSure" class="btn btn-default">确定</button>
+		</div>
+	</section>
+	
+	<footer>
+	</footer>
+</body>
+</html>

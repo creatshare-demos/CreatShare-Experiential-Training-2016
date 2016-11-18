@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="二手书" content="" /> 
+	<!--描述和关键词-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="format-detection" content="telephone=no" />
+	<!--一般情况下，IOS和Android系统都会默认某长度内的数字为电话号码，即使不加也是会默认显示为电话的，因此，取消这个很有必要！-->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<!--它表示：允许全屏模式浏览，隐藏浏览器导航栏-->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!--它指定的iphone中safari顶端的状态条的样式
+	默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明）-->
+	<title>西邮二手街首页</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+<body>
+	<div class="main">
+		<div class="header clearfix">
+			<div class="header-l f-l">
+				<div class="logo">
+					<a href="index.html"><img src="img/logo.png"></a>
+					<p>发现不一样的精彩</p>
+				</div>
+			</div>
+			<div class="header-r f-l">
+				<input type="text" placeholder="搜索" />
+				<button type="submit"><img src="img/search-icon.png"></button>
+			</div>
+		</div>
+		<div class="banner">
+			<ul class="clearfix">
+				<li><a href="#"><img src="img/lunbo-03.png"></a></li>
+				<li><a href="#"><img src="img/lunbo-01.png"></a></li>
+				<li><a href="#"><img src="img/lunbo-02.png"></a></li>
+				<li><a href="#"><img src="img/lunbo-03.png"></a></li>
+				<li><a href="#"><img src="img/lunbo-01.png"></a></li>
+			</ul>
+			<div class="btn clearfix">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<div class="line"></div>
+		<div class="classify">
+			<ul class="clearfix">
+				<li>
+					<a href="#">
+						<div>
+							<img src="img/books.png">
+						</div>
+						<p>图书教材</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div>
+							<img src="img/digital.png">
+						</div>
+						<p>数码配件</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div>
+							<img src="img/supplies.png">
+						</div>
+						<p>生活用品</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="line"></div>
+		<div class="content">
+			<div class="title">
+				<img src="img/hot-sell.png"><span>热卖推荐</span>
+			</div>
+			<ul class="clearfix">
+				<?php
+					include("public1.php");
+				?>
+			</ul>
+			<div class="title">
+				<img src="img/new.png"><span>最新发布</span>
+			</div>
+			<ul class="clearfix">
+				<?php
+					include("public1.php");
+				?>
+			</ul>
+		</div>
+		<div class="footer">
+			<ul class="clearfix">
+				<li>
+					<a href="detail.html">
+						<div><img src="img/market.png"></div>
+						<p>市场</p>
+					</a>
+				</li>
+				<li>
+					<a href="publish.html">
+						<div><img src="img/publish.png"></div>
+						<p>我要发布</p>
+					</a>
+				</li>
+				<li>
+					<a href="personal-center.html">
+						<div><img src="img/person-center.png"></div>
+						<p>我的</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

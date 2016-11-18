@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="二手书" content="" /> 
+	<!--描述和关键词-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="format-detection" content="telephone=no" />
+	<!--一般情况下，IOS和Android系统都会默认某长度内的数字为电话号码，即使不加也是会默认显示为电话的，因此，取消这个很有必要！-->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<!--它表示：允许全屏模式浏览，隐藏浏览器导航栏-->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!--它指定的iphone中safari顶端的状态条的样式
+	默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明）-->
+	<title>我要发布</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/publish.css">
+</head>
+<body>
+	<div class="main">
+		<ul class="header clearfix">
+			<li><a href="index.html"><img src="img/return-back.png"></a></li>
+			<li>西邮二手市场</li>
+			<li><a href="#"><img src="img/more.png"></a></li>
+		</ul>
+		<form method="post" action="public.php" enctype="multipart/form-data">
+		<div class="top">
+			<ul class="title clearfix">
+				<li><img src="img/fly.png"></li>
+				<li>发布商品</li>
+			</ul>
+			<div class="publish-img">
+				<img src="img/publish-2.png">
+				<p>添加图片</p>
+				<input type="file" name="img">
+			</div>
+		</div>
+		<div class="center">
+			<div class="content">
+				<table cellpadding="0" cellspacing="0">
+					<tr>
+						<td>商品名称</td>
+						<td><input type="text" placeholder="最多20个字" name="name" /></td>
+					</tr>
+					<tr>
+						<td>商品描述</td>
+						<td><input type="text" placeholder="建议填写物品新旧程度等" name="describe" /></td>
+					</tr>
+					<tr>
+						<td>价格</td>
+						<td><input type="text" placeholder="￥" name="price" /></td>
+					</tr>
+					<tr>
+						<td>分类</td>
+						<td>
+							<select name="class">
+								<option value="书籍">书籍</option>
+								<option value="数码设备">数码设备</option>
+								<option value="充电宝">充电宝</option>
+								<option value="配件">配件</option>
+								<option value="服饰">服饰</option>
+								<option value="其他">其他</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>微信</td>
+						<td><input type="text" placeholder="请输入微信号" name="wechat" /></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="btm">
+			<input type="submit" value="马上发布" />
+		</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/publish.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+@charset "utf-8";
+.main {
+	width: 22.222rem;
+	overflow-x: hidden;
+	position: relative;
+	margin: 0 auto;
+	padding: 4rem 0 4rem 0;
+}
+.header {
+	position: fixed;
+	top: 0;
+	width: 22.222rem;
+	padding: 0.5rem 0.72rem;
+	display: block;
+	z-index: 30;
+	background-color: rgb(248, 248, 85);
+}
+.header li {
+	display: block;
+}
+.header li:nth-child(1) {
+	float: left;
+	width: 15%;
+}
+.header li:nth-child(1) a {
+	padding: 0 0.5rem;
+}
+.header li:nth-child(1) img {
+	width: 1.24rem;
+	height: 2.69rem;
+}
+.header li:nth-child(2) {
+	float: left;
+	width: 70%;
+}
+.header li:nth-child(2) input {
+	display: block;
+	width: 14.4rem;
+	height: 2.7rem;
+	border: none;
+	font-size: 1.1rem;
+	padding-left: 0.5rem;
+	border-radius: 0.5rem;
+}
+.header li:nth-child(2) button {
+	position: absolute;
+	top: 1rem;
+	left: 15.5rem;
+}
+.header li:nth-child(2) img {
+	width: 1.44rem;
+	height: 1.44rem;
+}
+.header li:nth-child(3) {
+ 	float: right;
+	width: 15%;
+}
+.header li:nth-child(3) a {
+	padding: 1rem 0.7rem;
+}
+.header li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.header li:nth-child(3) img {
+	width: 2.22rem;
+	height: 0.60rem;
+}
+.classify {
+	width: 100%;
+}
+.classify ul {
+	display: block;
+	padding: 0.2rem 0.4rem 0.69rem 0.4rem;
+}
+.classify li {
+	float: left;
+	width: 32%;
+	height: 3.4rem;
+	font-size: 1rem;
+	color: rgb(109, 113, 116);
+	text-align: center;
+	line-height: 3.4rem;
+	margin: 0.14rem;
+	background-color: rgb(214, 238, 248);
+}
+.classify .hover {
+	background-color: rgb(255, 247, 153);
+	box-shadow: 0.05rem 0.05rem 0.05rem 0.05rem rgba(204, 204, 204, 0.8);
+}
+.content {
+	width: 100%;
+	background-color: rgb(233, 254, 255);
+	padding: 0.2rem 0.5rem;
+}
+.content {
+	width: 100%;
+}
+.content li {
+	width: 49%;
+	float: left;
+	margin: 0 0.4rem 0.4rem 0;
+	border: 0.05rem solid #ccc;
+	background-color: rgb(255, 255, 255);
+}
+.content li div img {
+	width: 10.38rem;
+	height: 9.95rem;
+}
+.content li:nth-child(2n) {
+	margin-right: 0;
+}
+.content li div p {
+	padding: 0.15rem 0.1rem;
+	font-size: 0.66rem;
+	color: rgb(157, 157, 157);
+}
+.content li div .r {
+	color: rgb(247, 63, 63);
+}
+.content .hidden {
+	display: none;
+}
+.content .show {
+	display: block;
+}
+.computer, .books, .parts, .power, .others ,.daily{
+	display: none;
+}

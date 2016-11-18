@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="./resource/css/base.css"/>
+	<link rel="stylesheet" href="./resource/css/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./resource/css/businessPage.css"/>
+	<script type="text/javascript" src="./resource/js/jquery.min.js"></script>
+	<script type="text/javascript" src="./resource/js/tool.js"></script>
+	<script type="text/javascript" src="./resource/js/businessPage.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="divTurnSellerPage">
+			<span class="glyphicon glyphicon-hand-left"></span>
+			<div class="turnTopTip">返回上一页</div>
+		</div>
+		<label class="topicFont text-shadow3">杨铭宇黄焖鸡饭</label>
+		<a>添加菜单</a>
+	</header>
+	<section>
+		<div class="divMenuList">
+			<label class="titleFont">菜单列表</label>
+			<div class="menuList">
+				<table class="table table-striped table-bordered table-hover">
+					<thead><tr><td>编号</td><td>菜名</td><td>价钱</td></tr></thead>
+					<tbody></tbody>
+				</table>
+			</div>
+		</div>
+		<div class="divBtn divButton">
+			<!--<button class="btn btn-info" id="selectAllSell">售罄</button><br>  -->
+			<button class="btn btn-info" id="selectAllSelected">全选</button><br>
+			<button class="btn btn-info" id="selectCancel">删除</button>
+		</div>
+		<div class="divFoodList">
+			<label class="titleFont">所有订单</label>
+			<div class="foodList">
+				<table class="table table-striped table-bordered table-hover">
+					<thead>
+						<tr><td>学号</td><td>菜单</td><td>价钱</td><td>外带否</td><td>取餐号</td><td>忌口</td></tr>
+					</thead>
+					<tbody></tbody>
+				</table>
+			</div>
+		</div>
+		<div class="divBtn">
+			<button class="btn btn-info" id="selectComplain">投诉</button><br>
+			<button class="btn btn-info" id="selectAll">全选</button><br>
+			<button class="btn btn-info" id="selectRemove">已取走</button>
+		</div>
+		<div class="divInfo">
+				<h3>温馨提示</h3>
+				<h4></h4>
+				<button type="button" id="btnToSure" class="btn btn-danger">确定</button>
+		</div>
+	</section>
+</body>
+</html>

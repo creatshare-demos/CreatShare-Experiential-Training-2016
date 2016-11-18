@@ -1,0 +1,33 @@
+form, .tabNav ul{position:relative;right:10%;float:left;height:100%;width:110%;}
+header, footer{background:#4693EC;}
+section{height:80%;}
+
+header label{text-align:center;margin:0px auto;}
+section{background-color:white;background-image:url(../pic/login.png);background-size:60% 100%;background-position:left;background-repeat:no-repeat;}
+.divTurnSellerPage{position:absolute;float:left;color:white;}
+.divTurnSellerPage span{font-size:25pt;float:left;line-height:180%;padding-left:10px;}
+.divTurnSellerPage span:hover{color:gray;}
+.divTurnSellerPage span:active{color:lightblue;}
+.turnTopTip{position:absolute;float:left;background:lightgray;color:gray;height:20px;width:80px;display:none;}
+
+.divTable{position:relative;left:65%;border:1px solid #DDDDDD;height:65%;width:28%;background:white;box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);z-index:1;}
+.tabNav{height:20%;width:100%;}
+.tabNav ul{position:relative;left:0%;width:100%;padding:0px;}
+.tabNav ul li{float:left;width:50%;line-height:200%;padding-top:2%;}
+.titleLogin, .titleRegist{display:block;text-align:center;line-height:200%;background:lightgray;border:1px solid white;height:100%;width:50%;}
+.tabContent1, .tabContent2{height:80%;width:100%;}
+.tabContent1 div{margin-top:12%;text-align:center;line-height:200%;}
+#userId, #userPass{position:relative;right:10%;width:70%;float:right;color:lightgray;}
+#btnLogin, #btnRegist{width:82%;}
+
+.tabContent2{position:absolute;top:20%;}
+.tabContent2 div{position:relative;left:5%;width:95%;height:15%;line-height:200%;}
+.tabContent2 input[type='text']{position:relative;right:10%;width:70%;float:right;color:lightgray;}
+#divRadio{position:relative;left:30%;width:70%;}
+.sellerRadio{position:relative;left:20%;}
+.tabContent2 button{position:relative;left:8%;top:4%;}
+
+.divInfo{position:relative;bottom:28%;margin:0px auto;height:30%;width:20%;background:#BCA0F7;text-align:center;color:red;border-radius:10px;box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .6);opacity:0;}
+.divInfo h3{position:relative;top:5%;left:25%;height:30%;width:50%;line-height:200%;color:white;background:#563D7C;border-radius:10px;}
+.divInfo h4{position:relative;top:6%;height:30%;}
+.divInfo button{width:50%;}

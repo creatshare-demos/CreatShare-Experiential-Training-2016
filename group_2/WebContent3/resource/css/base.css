@@ -1,0 +1,14 @@
+html, body{height:100%;width:100%;margin:0px;left:0px;padding:0px;}
+header{height:10%;position:relative;text-align: center;background:#4693EC;}
+footer{background:#4693EC;height:10%;}
+ul{list-style:none;display:inline;}
+
+.titleFont{font-size:18pt;font-family:Î¢ÈíÑÅºÚ;}
+.normalFont{font-size:12pt;font-family:Î¢ÈíÑÅºÚ;}
+.topicFont{font-size:30pt;font-family:Î¢ÈíÑÅºÚ;color:white;font-weight:normal;}
+
+.mouseOver{background:red;}
+.clickLB{background:lightblue;}
+.spanRed{position:relative;left:62%;float:right;color:red;}
+
+.text-shadow3{text-shadow:3px 3px 3px black;}

@@ -1,0 +1,63 @@
+body{display: -webkit-flex; 
+	display: flex; 
+	-webkit-flex-direction: column;
+	 flex-direction: column; 
+	 -webkit-align-items: center; 
+	align-items: center; 
+	-webkit-justify-content: center; 
+	justify-content: center;}
+body{font-family:"Microsoft Yahei";}
+div.username{
+	display: block;
+	height: 70px;
+}
+.title{
+	color: #5E5E5E;
+	line-height: 30px;
+	margin-left: 40px;
+}
+input.name{
+	display: block;
+	margin-left: 40px;
+	height: 30px;
+	width: 620px;
+	border-radius: 5px;
+	border: 1px solid #89AF4C;
+	text-indent: 5px;
+}
+.btn{
+	display: block;
+	float: right;
+	height: 30px;
+	width: 70px;
+	margin-left: 10px;
+	border-radius: 5px;
+	background: #9DC45F;
+	color: #FFF;
+	cursor: pointer;
+}
+.text{
+	height: 110px;
+}
+.message{
+	display: block;
+	margin-left: 40px;
+	height: 70px;
+	width: 620px;
+	border-radius: 5px;
+	border: 1px solid #89AF4C;
+	text-indent: 5px;
+	resize:none;}
+ul{
+	width: 660px;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	border: 3px solid #9DC45F;
+}
+li{
+	width: 620px;
+	height: 70px;
+	margin-top: 10px;
+	border-bottom: 1px solid #9DC45F;
+}

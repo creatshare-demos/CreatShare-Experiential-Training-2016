@@ -1,0 +1,61 @@
+﻿body{
+	background-image: url(/creatshare/img/yuzhou.jpg);
+	background-repeat:no-repeat;
+}
+span{
+	display: block;
+	font-size: 25px;
+	color:white;
+}
+.img1{
+
+	width:1900px;
+	height:300px;
+}
+form{
+	width: 700px;
+	height: 300px;
+	margin: 0 auto;/*外边距*/
+	margin-top: 20px;
+	border-radius: 5px 5px 0px 0px;/*边框圆角.R*/
+
+}
+h1{
+	text-align: center;
+	text-shadow: 5px 5px 5px #FF0000;
+	font-size: 30px;
+	color:white;
+}
+h2{
+	text-align: center;
+	font-size:25px;	
+}
+div{
+	text-align:center;
+	color:white;
+	
+}
+table{
+	width: 700px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 5px 5px 0px 0px;
+	border: 3px solid white;
+}
+.fix{
+	display: block;
+	width: 40px;
+	height: 25px;
+	float: right;
+	text-decoration: none;
+	font-size: 13px;
+	margin-left: 5px;
+	text-align: center;
+	line-height: 25px;
+}
+.yuzhou{
+	-moz-background-size:40% 100%; /* 老版本的 Firefox */
+	background-size:40% 100%;
+	background-repeat:no-repeat;
+}

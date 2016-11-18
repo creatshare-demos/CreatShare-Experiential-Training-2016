@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="二手书" content="" /> 
+	<!--描述和关键词-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="format-detection" content="telephone=no" />
+	<!--一般情况下，IOS和Android系统都会默认某长度内的数字为电话号码，即使不加也是会默认显示为电话的，因此，取消这个很有必要！-->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<!--它表示：允许全屏模式浏览，隐藏浏览器导航栏-->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!--它指定的iphone中safari顶端的状态条的样式
+	默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明）-->
+	<title>分类详情</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/detail.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+<body>
+	<div class="main">
+		<ul class="header clearfix">
+			<li><a href="index.html"><img src="img/return-back.png"></a></li>
+			<li>
+				<input type="text" placeholder="搜索" />
+				<button type="submit"><img src="img/search-icon.png"></button>
+			</li>
+			<li><a href="#"><img src="img/more.png"></a></li>
+		</ul>
+		<div class="classify">
+			<ul class="clearfix" id="liArr">
+				<li class="hover">服饰</li>
+				<li>数码设备</li>
+				<li>配件</li>
+				<li>书籍</li>
+				<li>充电宝</li>
+				<li>其他</li>
+			</ul>
+		</div>
+		<div class="content" id="ulArr">
+			<ul class="daily clearfix">
+				<?php
+					include("public3.php");
+				?>
+			</ul>
+			<ul class="computer clearfix">
+				<?php
+					include("public4.php");
+				?>
+			</ul>
+			<ul class="parts clearfix">
+				<?php
+					include("public7.php");
+				?>
+			</ul>
+			<ul class="books clearfix">
+				<?php
+					include("public2.php");
+				?>
+			</ul>
+			<ul class="power clearfix">
+				<?php
+					include("public5.php");
+				?>
+			</ul>
+			<ul class="others clearfix">
+				<?php
+					include("public6.php");
+				?>
+			</ul>
+		</div>
+		<div class="footer">
+			<ul class="clearfix">
+				<li>
+					<a href="detail.html">
+						<div><img src="img/market.png"></div>
+						<p>市场</p>
+					</a>
+				</li>
+				<li>
+					<a href="publish.html">
+						<div><img src="img/publish.png"></div>
+						<p>我要发布</p>
+					</a>
+				</li>
+				<li>
+					<a href="personal-center.html">
+						<div><img src="img/person-center.png"></div>
+						<p>我的</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/detail.js"></script>
+</body>
+</html>
